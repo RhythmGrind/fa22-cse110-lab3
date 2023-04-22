@@ -1,0 +1,145 @@
+/* background color */
+* {
+    background-color:#dbdebb;
+    font-family: "Candara", sans-serif;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "Candara", sans-serif;
+    color: purple;
+  }
+
+header {
+    background-image: url('banner.jpg');
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+
+h2{
+    margin-top: 0.5pc;
+    margin-bottom: 0.2em;
+}
+h3{
+    margin-top: 0.1em;
+    margin-left: 1ex;
+    margin-right: 1vw;
+    margin-bottom: 1em;;
+    font-size: 15px;
+}
+h4{
+    background-color: #8FBC8F;
+    border-style: groove;
+    border-width: 5px;
+    border-color: yellowgreen;
+    margin: 25px 0.2em 0.1em 0 ;
+
+}
+nav{
+    background-color: #F9A602;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+}
+nav ul {
+    background-color: #F9A602;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+nav li {
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    border-style: groove;
+    border-radius: 5px;
+}
+nav li a:hover{
+    color: gold;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    background-color: blueviolet;
+}
+img {
+    margin: auto;
+    position: static;
+}
+
+audio{
+    height: 20px;
+    width: 300px;
+    position: sticky;
+    top: 20px;
+}
+video{
+    max-width: 50%;
+    min-width: 20%;
+
+}
+footer{
+    display: none;
+}
+div {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+button:active {
+    background-color: #4c99af;
+  }
+
+@media screen and (max-width: 768px) {
+    body {
+        color: rgb(90, 166, 151);
+    }
+  }
+.people {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+#agenda {
+    color: rgb(4, 100, 94);
+}
+
+li[class="person"] {
+    color: rgb(237, 135, 33);
+}
+
+h1,h2{
+    font-family: "Bruno Ace SC", cursive;
+}
+fieldset > label{
+    color: rgb(23, 51, 228);
+}
+h2 ~ h3{
+    font-weight: bold;
+}
+
+#system-options + option {
+    font-weight: bold;
+}
+
+.i li.p{
+    font-weight: bold;
+}
