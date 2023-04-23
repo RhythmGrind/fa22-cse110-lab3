@@ -112,7 +112,7 @@ button:active {
         color: rgb(90, 166, 151);
     }
   }
-.people {
+.i {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -142,4 +142,7 @@ h2 ~ h3{
 
 .i li.p{
     font-weight: bold;
+}
+.ag{
+    border-top: 6px solid rgb(81, 208, 92);
 }
