@@ -146,3 +146,6 @@ h2 ~ h3{
 .ag{
     border-top: 6px solid rgb(81, 208, 92);
 }
+a[href="report"] {
+    color: blue;
+}
